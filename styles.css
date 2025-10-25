@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    background-color: aquamarine;
+    color: #58355E;
+    display: flex;
+}
+
+.intro {
+    max-width: 500px;
+    text-align: left;
+    flex-direction: center;
+}
+
+body {
+    color: #000000;
+}
+
+.centered {
+    text-align: center;
+}
