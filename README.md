@@ -1,1 +1,0 @@
-# jlynnpaulus.github.io
