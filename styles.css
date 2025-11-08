@@ -13,11 +13,12 @@ header {
 
 body {
     font-family: 'Delius';
+    padding: 20px;
 }
 
 .side {
     display: flex;
-    align-items: center padding: 10px;
+    align-items: center padding: 50px;
 }
 
 .tracker-form {
@@ -48,4 +49,5 @@ body {
 
 .tracker-form button:hover {
     background-color: #0056b3;
+
 }
