@@ -21,8 +21,8 @@ body {
 
 .side {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: start;
+    justify-content: cemter;
 }
 
 .tracker-form {
@@ -55,4 +55,5 @@ body {
     background-color: #0056b3;
 
 }
+
 
