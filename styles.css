@@ -19,7 +19,6 @@ body {
 
 .side {
     display: flex;
-    align-items: start;
     justify-content: center;
     column-gap: 20px;
 }
@@ -54,6 +53,7 @@ body {
     background-color: #0056b3;
 
 }
+
 
 
 
