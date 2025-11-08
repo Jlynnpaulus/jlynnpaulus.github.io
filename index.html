@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Family Chore Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <script src="Java.js" defer></script>
+</head>
+<header>
+    <div>
+        <h1>
+            Family Chore Chart & Tracking
+        </h1>
+    </div>
+    <Div class="kids"> <img src="kids.jpg"
+            Alt="kids posing as superheros while wearing rubber gloves, holding a mop, dishes and a trash bag"
+            height="300">
+    </Div>
+</header>
+
+<body>
+    <h2>
+        What jobs need to be done? make a list of the jobs needed.
+    </h2>
+    <!-- Make it so that the data stays so that if i accidently refresh the page it doesnt all dissapear
+     can we make this a little fancier?
+
+     can we do a pretty background on the whole screen?-->
+    <div class="side">
+        <Div class="Kat">
+            <Section class="member">
+                <h2>Kat</h2>
+                <ul id="katList">
+                    <li><input type="checkbox"> Empty
+                        dishwasher</li>
+                    <li><input type="checkbox"> Take out kitchen trash</li>
+                </ul>
+            </Section>
+            <section>
+                <form id="katForm" class="tracker-form">
+                    <input type="text" id="katInput" placeholder="Chore" required>
+                    <button type="submit">Add</button>
+                </form>
+        </Div>
+
+        <Div class="Margo">
+            <Section class="member">
+                <h2>Margo</h2>
+                <ul id="marList">
+                    <li><input type="checkbox"> Load dishwasher and clean the sink</li>
+                    <li><input type="checkbox"> Clean Litter box</li>
+                </ul>
+            </Section>
+            <section>
+                <form id="marForm" class="tracker-form">
+                    <input type="text" id="marInput" placeholder="Chore" required>
+                    <button type="submit">Add</button>
+                </form>
+        </Div>
+    </div>
+    <div class="side">
+        <Div class="Dad">
+            <section>
+                <Section class="member">
+                    <h2>Dad</h2>
+                    <ul id="dadList">
+                        <li><input type="checkbox"> Do laundry</li>
+                        <li><input type="checkbox"> Buy groceries</li>
+                    </ul>
+                </Section>
+                <form id="dadForm" class="tracker-form">
+                    <input type="text" id="dadInput" placeholder="Chore" required>
+                    <button type="submit">Add</button>
+                </form>
+        </Div>
+
+
+        <Div class="Mom">
+            <section>
+                <Section class="member">
+                    <h2>Mom</h2>
+                    <ul id="momList">
+                        <li><input type="checkbox"> Feed the Cat</li>
+                        <li><input type="checkbox"> Pack lunches</li>
+                        <li><input type="checkbox"> prep dinner</li>
+                    </ul>
+                </Section>
+                <form id="momForm" class="tracker-form">
+                    <input type="text" id="momInput" placeholder="Chore" required>
+                    <button type="submit">Add</button>
+                </form>
+        </Div>
+    </div>
+</body>
+
+</html>
